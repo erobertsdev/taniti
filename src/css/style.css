@@ -1,4 +1,4 @@
-* {
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -7,4 +7,25 @@
 	height: 8vh;
 	background-color: black;
 	color: cyan;
+}
+
+#nav-top-logo {
+	float: left;
+	margin: 5px;
+	padding: 10px;
+}
+
+#nav-top-login {
+	float: right;
+	margin: 5px;
+	padding: 10px;
+}
+
+#nav-bot {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bot-menu {
+	padding: 10px;
 }
