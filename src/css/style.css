@@ -1,15 +1,17 @@
 body {
+	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 #nav {
-	height: 8vh;
+	height: 80px;
 	background-color: black;
-	color: cyan;
+	color: lightgray;
 }
 
 #nav-top-logo {
+	font-size: 2em;
 	float: left;
 	margin: 5px;
 	padding: 10px;
@@ -23,9 +25,15 @@ body {
 
 #nav-bot {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .nav-bot-menu {
-	padding: 10px;
+	margin: 15px 10px 0px 10px;
+	padding: 15px 15px 15px 15px;
+}
+
+.nav-bot-menu:hover {
+	background-color: gray;
+	color: black;
 }
