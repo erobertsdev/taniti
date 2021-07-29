@@ -8,7 +8,7 @@
     <!--For C856 WGU-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/css/style.css">
-    <title>Events</title>
+    <title>Activities</title>
 </head>
 
 <body>
@@ -27,13 +27,10 @@
                 <a class="nav-link" href="#">Transportation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Events</a>
+                <a class="nav-link" href="#">Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Activities</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link active" href="#">Activities</a>
               </li>
             </ul>
             <span class="navbar-text">
@@ -49,9 +46,9 @@
         <form>
           <div style="max-width: 400px;">
           </div>
-          <h2>Attend an event:</h2>
-          <a href="./lodging.html"><button type="button" class="btn btn-secondary">Back to Transportation</button></a>
-          <a href="./events.html"><button type="button" class="btn btn-warning">Skip</button></a>
+          <h2>Book an activity:</h2>
+          <a href="./events.html"><button type="button" class="btn btn-secondary">Back to Events</button></a>
+          <a href="./checkout.html"><button type="button" class="btn btn-warning">Skip</button></a>
           <div style="display: flex; padding-bottom: 18px;max-width : 450px;">
           </div>
           <div style="padding-bottom: 18px;">Date<br/>
@@ -62,6 +59,14 @@
           <script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
           <div style="padding-bottom: 18px;">Number of guests<br/>
             <input type="number" id="data_9" name="data_9" style="max-width : 250px;" class="form-control"/>
+        </div>
+        <div style="padding-bottom: 18px;">Type of activity<br/>
+            <select id="data_9" name="data_9" style="max-width : 250px;" class="form-control">
+              <option value="volvo">Hiking</option>
+              <option value="saab">Zip-Lining</option>
+              <option value="fiat">Helicopter Ride</option>
+              <option value="audi">You Get The Idea</option>
+            </select>
             </div>
           <button type="button" class="btn btn-info">Search</button>
         </form>
@@ -81,7 +86,7 @@
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
                     <label class="form-check-label" for="exampleRadios1">
-                      Attend
+                      Book
                     </label>
                   </div>
                 </figure>
@@ -95,7 +100,7 @@
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
                       <label class="form-check-label" for="exampleRadios1">
-                        Attend
+                        Book
                       </label>
                     </div>
                   </figure>
@@ -109,7 +114,7 @@
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
                       <label class="form-check-label" for="exampleRadios1">
-                        Attend
+                        Book
                       </label>
                     </div>
                   </figure>
@@ -117,7 +122,7 @@
             </div>
           </div>
           <div class="text-center">
-            <a href="./activities.html"><button type="button" class="btn btn-info">Next</button></a>
+            <a href="./checkout.html"><button type="button" class="btn btn-info">Next</button></a>
           </div>
         </div>
       </section>
