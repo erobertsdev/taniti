@@ -45,3 +45,19 @@ body {
 	border: 2px solid gray;
 	border-radius: 10%;
 }
+
+footer {
+	margin-top: 20px;
+	background-color: #f8f9fa;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-text {
+	padding: 30px 10px 10px 10px;
+}
+
+#top-btn:hover {
+	cursor: pointer;
+}
