@@ -36,3 +36,12 @@ body {
 	background-color: gray;
 	color: black;
 }
+
+#island-blurb {
+	margin-top: 20px;
+}
+
+#map-img {
+	border: 2px solid gray;
+	border-radius: 10%;
+}
