@@ -37,6 +37,10 @@ body {
 	color: black;
 }
 
+.explore-img {
+	max-height: 22vh;
+}
+
 .island-blurb {
 	margin-top: 20px;
 }
