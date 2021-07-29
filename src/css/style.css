@@ -41,6 +41,10 @@ body {
 	margin-top: 20px;
 }
 
+header {
+	margin-top: 20px;
+}
+
 #map-img {
 	margin: 20px;
 	border: 2px solid gray;
