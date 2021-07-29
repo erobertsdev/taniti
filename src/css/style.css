@@ -63,7 +63,11 @@ footer {
 	cursor: pointer;
 }
 
-/* carousel img height, some imgs get stretch whatevs it's a prototype */
+.carousel {
+	max-width: 90vw;
+}
+
+/* carousel img height*/
 .d-block {
 	max-height: 80vh;
 }
