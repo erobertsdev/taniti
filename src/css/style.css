@@ -37,11 +37,12 @@ body {
 	color: black;
 }
 
-#island-blurb {
+.island-blurb {
 	margin-top: 20px;
 }
 
 #map-img {
+	margin: 20px;
 	border: 2px solid gray;
 	border-radius: 10%;
 }
@@ -60,4 +61,9 @@ footer {
 
 #top-btn:hover {
 	cursor: pointer;
+}
+
+/* carousel img height, some imgs get stretch whatevs it's a prototype */
+.d-block {
+	max-height: 80vh;
 }
