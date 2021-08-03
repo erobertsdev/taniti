@@ -53,3 +53,7 @@ footer {
 .d-block {
 	max-height: 80vh;
 }
+
+#search-results {
+	display: none;
+}
