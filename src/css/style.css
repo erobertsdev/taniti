@@ -57,3 +57,12 @@ footer {
 #search-results {
 	display: none;
 }
+
+#confirm {
+	display: none;
+	margin-top: 20px;
+}
+
+#cancel-btn {
+	margin-left: 20px;
+}
