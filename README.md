@@ -1,1 +1,1 @@
-# C856 Taniti Tourism Site
+# Assignment for C856 - UX Design | Rough prototype for fake tourism site.
